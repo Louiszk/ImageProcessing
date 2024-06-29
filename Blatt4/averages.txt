@@ -1,0 +1,78 @@
+
+Grouped by: max_iter
+===================================
+max_iter=5
+Average accuracy: 0.7265611111111111
+Average precision: 0.7119747206111111
+Average recall: 0.7265611111111111
+Average F1-score: 0.7000603646111112
+
+max_iter=10
+Average accuracy: 0.7818499999999999
+Average precision: 0.7702798169444445
+Average recall: 0.7818499999999999
+Average F1-score: 0.7606890956111111
+
+max_iter=15
+Average accuracy: 0.8251666666666666
+Average precision: 0.8073833481666667
+Average recall: 0.8251666666666666
+Average F1-score: 0.8092063763888889
+
+
+Grouped by: learning_rate
+===================================
+learning_rate=0.01
+Average accuracy: 0.8609740740740741
+Average precision: 0.8652341265185185
+Average recall: 0.8609740740740741
+Average F1-score: 0.8530260632592592
+
+learning_rate=0.1
+Average accuracy: 0.6947444444444444
+Average precision: 0.6611911306296295
+Average recall: 0.6947444444444444
+Average F1-score: 0.6602778278148148
+
+
+Grouped by: layers
+===================================
+layers="(50, 50)"
+Average accuracy: 0.8627944444444444
+Average precision: 0.859537499
+Average recall: 0.8627944444444444
+Average F1-score: 0.8558602508333333
+
+layers="(50, 50, 50)"
+Average accuracy: 0.7631611111111112
+Average precision: 0.7398895789444445
+Average recall: 0.7631611111111112
+Average F1-score: 0.7375902207222222
+
+layers="(50, 50, 50, 50)"
+Average accuracy: 0.7076222222222222
+Average precision: 0.6902108077777778
+Average recall: 0.7076222222222222
+Average F1-score: 0.6765053650555556
+
+
+Grouped by: solver
+===================================
+solver=adam
+Average accuracy: 0.6990944444444445
+Average precision: 0.6523402136111112
+Average recall: 0.6990944444444445
+Average F1-score: 0.6585955329444445
+
+solver=lbfgs
+Average accuracy: 0.6672555555555556
+Average precision: 0.6698814026666667
+Average recall: 0.6672555555555556
+Average F1-score: 0.6441431772222221
+
+solver=sgd
+Average accuracy: 0.9672277777777778
+Average precision: 0.9674162694444445
+Average recall: 0.9672277777777778
+Average F1-score: 0.9672171264444445
+
